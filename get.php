@@ -15,6 +15,7 @@ session_start();
 	<img id=captcha src="captcha.php" alt="captcha"><br>
 	<input type="textarea" name=captcha placeholder="Write what you see on picture."><br>
 	<input type=submit><br/>
+	<a href='https://github.com/wipedlifepotato/tinyupload-php-openssl'> Source Code </a>
 </form>
 <?php
 	$iv="";
