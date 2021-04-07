@@ -31,7 +31,7 @@ class Simply_Captcha_Render{
 		$this->width = $width;
 		$this->height = $height;
 	}
-	public function generateRandString($length=10){
+	public function generateRandString($length=4){
 	 $string = "";
 	 while($length--){
 		 $type = rand(0,2);
